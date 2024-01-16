@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body{
+    background-color: #304D63;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: cout;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 20px;
+    font-weight: bold;
+    font-family: GF, times;
+    font-size: 20px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-family: B;
+    font-size: 30px;
+}
+
+h1{
+   font-weight: 200; 
+}
+
+a{
+    color: white;
+    font-size: 20px;
+}
+
+a:hover{
+    color:#8FB9AA;
+    transition: 0.3s all;
+}
+
+#out{
+    font-weight: bold;
+    border: 2px solid #8FB9AA ;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+#out:hover{
+    background-color: #8FB9AA;
+    color: white;
+    transform: scale(1.2);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: B;
+}
+
+span{
+    color: #8FB9AA;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: B;
+    font-size: 20px;
+}
+
