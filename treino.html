@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/inicial.css" rel="stylesheet">
     <link href="./font/font.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512- +iRuDfUaDKLwOs/C+NY89wQ2a7LEiCpRWYn/dQX8FSrdt3ePshQFPxH4zjFhUK6Me0K8XJdD6gjMY59JOnxY2Q==" crossorigin="anonymous" />
     <title>EnergyTraining</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
         </div>
 
         <ul>
-            <a href="index.html"><li>Início</li></a>
+            <a href="inicial.html"><li>Início</li></a>
             <a href="treino.html"><li>Treino</li></a>
             <a href="anotacoes.html"><li>Anotações</li></a>
             <a href="desempenho.html"><li>Desempenho</li></a>
@@ -26,9 +27,22 @@
     <main>
         <aside>
             <h2><span>Meus Treinos</span></h2>
-            <p>
-                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.
-            </p>
+            <form>
+                <label>Adicione seu Treino</label>
+                <fieldset>
+                    <div id="treino-container">
+                        <div class="exercicio-item">
+                            <label>Treino:</label>
+                            <input type="text" placeholder="Treino" id="txt_treino">
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fas fa-plus adicionar-icone" onclick="adicionarExercicio()"></i>
+                        <button type="submit" id="btn_salvar" class="salvar-icone"><i class="fas fa-save salvar-icone"></i></button>
+                    </div>
+                    
+                </fieldset>
+            </form>
         </aside>
 
         <article>
@@ -39,3 +53,4 @@
     </main>
 </body>
 </html>
+<script src="js/treino.js"></script>
