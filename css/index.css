@@ -142,9 +142,22 @@ input{
 }
 
 #btn_enviar{
+    margin-top: 20px;
+    width:200px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #8FB9AA;
+    border: 2px solid #8FB9AA ;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    height: 50px;
     font-family: B;
     font-size: 20px;
-    text-align: center;
-    width: 100%;
-
+    color: white;
 }
+#btn_enviar:hover {
+    background-color: #304D63;
+    color: white;
+    transform: scale(1.2);
+  }

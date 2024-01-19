@@ -85,7 +85,7 @@ p{
 form{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 110%;
     font-size: 25px;
     font-family: B;
 }
@@ -104,4 +104,7 @@ fieldset{
    font-size: 20px;
 }
 
-
+#ph_treino{
+    font-family: B;
+    font-size: 20px;
+}
